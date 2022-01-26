@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { UiControlsComponent } from 'ui-controls';
+import { UiControlsModule } from 'ui-controls';
 import { AppComponent } from './app.component';
 
 @NgModule({
@@ -9,7 +9,7 @@ import { AppComponent } from './app.component';
   ],
   imports: [
     BrowserModule,
-    UiControlsComponent
+    UiControlsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
