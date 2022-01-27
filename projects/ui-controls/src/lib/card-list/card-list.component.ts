@@ -1,5 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { Card } from '../card';
+import { CdkDragDrop, moveItemInArray } from '@angular/cdk/drag-drop'
 
 @Component({
   selector: 'lib-card-list',
